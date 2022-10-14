@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <!--Meta tags obrigatórias-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap v4.6.2 CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!--CSS Customizado-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--FontAwesome 6.2.0-->
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+
+    <!--Script-->
+    <script src="javascript/script.js" defer></script>
+
+    <title>1000ton - Funilaria e Pintura</title>
+</head>
+<body class="text-white">
+    <header id="cabecalho" class="navbar navbar-expand-md justify-content-around position-fixe fixed-top mb-5"><!--Inicio header-->
+        <!--Area logo-->
+        <div class="navbar-brand">
+            <img src="img/pistola2.png" alt="Logo" width="20">
+        </div>
+
+        <!--Ícone Seta-->
+        <div class="">
+            <button class="btn">
+                <span></span>
+            </button>
+        </div>
+
+        <nav class="nav"><!--Inicio nav-->
+            <ul class="nav align-items-center" role="menu">
+                <li class="nav-item">
+                    <a href="#inicio" class="nav-link">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apresentacao" class="nav-link">Apresentação</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#servicos" class="nav-link">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contato" class="nav-link">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <button id="btn-mod" class="" onclick="mod()">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </li>
+            </ul>
+        </nav><!--Fim nav-->
+
+    </header><!--Fim header-->
+
+    <div id="inicio" class="container"><!--Inicio do container principal-->
+
+        <!--Capa de carrossel de imagens-->
+        <div id="carousel-capa" class="carousel slide" data-ride="carousel">
+            
+            <!--Indicadores do carrossel-->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-capa" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-capa" data-slide-to="1"></li>
+              <li data-target="#carousel-capa" data-slide-to="2"></li>
+            </ol>
+
+            <!---->
+            <div class="carousel-inner">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="display-4">Bem-Vindo</h1>
+                </div>  
+                <div class="carousel-item active">
+                    <img class="d-block w-100 img-capa rounded" src="img/img-capa.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-capa rounded" src="img/img-capa2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100 img-capa rounded" src="img/img-capa3.jpg" alt="Third slide">
+                </div>
+            </div>
+
+        </div><!--Fim do Carrossel-->
+    
+        <section id="slides" class="row mt-4"><!--Inicio da secao slides-->
+
+            <article class="col-md-4 text-center">
+                <div class="overflow-hidden"><img src="img/trocadeoleo.jpg" alt="Carro" class="img-fluid rounded"></div>
+            
+                <a href="#" class="d-block">
+                    <button class="btn btn-dark text-uppercase">Mais informações</button>
+                </a>
+
+                <p>
+                    Faço troca de óleo em todo o tipo de carro. É rápido e 
+                    barato.
+                </p>
+            </article>
+
+            <article class="col-md-4 text-center">
+                <div class="overflow-hidden"><img src="img/trocadeoleo.jpg" alt="Carro" class="img-fluid rounded"></div>
+            
+                <a href="#" class="d-block"> 
+                    <button class="btn btn-dark text-uppercase">Mais informações</button>
+                </a>
+
+                <p>
+                    Faço troca de óleo em todo o tipo de carro. É rápido e 
+                    barato.
+                </p>
+            </article>
+
+            <article class="col-md-4 text-center">
+                <div class="overflow-hidden"><img src="img/trocadeoleo.jpg" alt="Carro" class="img-fluid rounded"></div>
+            
+                <a href="#" class="d-block">
+                    <button class="btn btn-dark text-uppercase">Mais informações</button>
+                </a>
+
+                <p>
+                    Faço troca de óleo em todo o tipo de carro. É rápido e 
+                    barato.
+                </p>
+            </article>
+
+        </section><!--Fim da secao slides-->
+
+        <section id="apresentacao" class="my-5"><!--Inicio da secao apresentacao-->
+            <h2>Olá, seja bem-vindo a</h2>
+            <h1 class="display-2">Oficina 1000ton</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Nullam tristique diam sed quam elementum, in mollis urna 
+                lacinia. Praesent vel viverra ante. In a tempus nisi. Morbi 
+                mattis est in pretium pellentesque.
+            </p>
+        </section><!--Fim da secao apresentacao-->
+
+        <section id="servicos"><!--Inicio da secao servicos-->
+            <h2 class="display-4 m-4">Serviços</h2>
+
+            <div class="row">
+                <article class="col-md-6">
+                    <h3>Soldadem</h3>
+                    <img src="img/servicos-img-2.jpg" alt="" class="img-fluid">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </article>
+                <article class="col-md-6">
+                    <h3>Soldadem</h3>
+                    <img src="img/servicos-img-2.jpg" alt="" class="img-fluid">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </article>
+            </div>
+
+            <div class="row my-4">
+                <article class="col-md-6">
+                    <h3>Soldadem</h3>
+                    <img src="img/servicos-img-2.jpg" alt="" class="img-fluid">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </article>
+                <article class="col-md-6">
+                    <h3>Soldadem</h3>
+                    <img src="img/servicos-img-2.jpg" alt="" class="img-fluid">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </article>
+            </div>
+
+            <div class="row">
+                <article class="col-md-6">
+                    <h3>Soldadem</h3>
+                    <img src="img/servicos-img-2.jpg" alt="" class="img-fluid">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </article>
+                <article class="col-md-6">
+                    <h3>Soldadem</h3>
+                    <img src="img/servicos-img-2.jpg" alt="" class="img-fluid">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+                </article>
+            </div>
+        </section><!--Fim da secao servicos-->
+
+        <section id="contato" class="my-5"><!--Inicio da secao contato-->
+            <h2 class="display-4">Contato</h2>
+             
+            <div class="row">
+                <article class="col-md-6">
+                    <h3>Telefone</h3>
+                    <a href="">11 9XXXX-XXXX</a>
+
+                    <h3>Whatsapp</h3>
+                    <a href="">11 9XXXX-XXXX</a>
+
+                    <h3>Instagram</h3>
+                    <a href="">instagram</a>
+                </article>
+
+                <article class="col-md-6">
+                    <h3>Estou aqui</h3>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.5740215601973!2d-46.79141488535078!3d-23.762565274937657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce4cf8404bdebf%3A0x5c3df2687bd0d2a7!2zMTAwMHRvbiBSZXN0YXVyYcOnw6Nv!5e0!3m2!1spt-BR!2sbr!4v1664203505265!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </article>
+            </div>
+
+            <div class="row my-4">
+                <article class="col-md-8">
+                    <img src="https://cdn.shopify.com/s/files/1/2617/8854/articles/funilaria_e_pintura_3500x.jpg?v=1586978323" alt="Funilaria" class="img-fluid">
+                </article>
+
+                <article class="col-md-4">
+                    <h3>Solicitar Servico</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </p>
+
+                    <fieldset>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="InputNome">Seu Nome Completo</label>
+                                <input type="text" class="form-control" id="InputNome">
+                            </div>
+                            <div class="form-group">
+                                <label for="InputEmail">Seu Email</label>
+                                <input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted">Não compartilharemos seu e-mail com ninguém.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="InputSelect">Tipo de Serviço</label>
+                                <select name="servicos" id="InputSelect" class="form-control">
+                                    <option value="servicos">Funilaria</option>
+                                    <option value="servico">Pintura</option>
+                                    <option value="servico">Troca de Óleo</option>
+                                    <option value="servico">Conserto de Para-choque</option>
+                                    <option value="servico">Soldagem</option>
+                                    <option value="servico">Outro</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="TextArea">Descrição</label>
+                                <textarea class="form-control" id="TextArea" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="File">Carregar imagem</label>
+                                <input type="file" class="form-control-file" id="File">
+                            </div>
+                            <div>
+                                <button type="submit">Solicitar</button>
+                            </div>
+                    </fieldset>
+                    </form>
+                </article>
+            </div>
+
+        </section><!--Fim da secao contato-->
+
+        <footer id="footer"><!--Inicio do rodape-->
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Sobre nós</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur 
+                        adipisicing elit, sed do eiusmod tempor 
+                        incididunt ut labore dolore magna aliqua.
+                    </p>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Feed Instagram</h4>
+                    <div class="row">
+                        <div class="col-md-3"><img src="img/img-carro1.jpg" alt="Carro" class="img-fluid"></div>
+
+                        <div class="col-md-3"><img src="img/img-carro1.jpg" alt="Carro" class="img-fluid"></div>
+
+                        <div class="col-md-3"><img src="img/img-carro1.jpg" alt="Carro" class="img-fluid"></div>
+
+                        <div class="col-md-3"><img src="img/img-carro1.jpg" alt="Carro" class="img-fluid"></div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-3"><img src="img/img-carro1.jpg" alt="Carro" class="img-fluid"></div>
+
+                        <div class="col-md-3"><img src="img/img-carro1.jpg" alt="Carro" class="img-fluid"></div>
+
+                        <div class="col-md-3"><img src="img/img-carro1.jpg" alt="Carro" class="img-fluid"></div>
+
+                        <div class="col-md-3"><img src="img/img-carro1.jpg" alt="Carro" class="img-fluid"></div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h4>Redes Sociais</h4>
+                    <div class="row d-flex justify-content-around">
+                        <i class="fa-brands fa-instagram"></i>
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <h5>Copyright &copy; 2022 Todos os direitos reservados</h5>
+            </div>
+
+        </footer><!--Fim do rodape-->
+
+    </div><!--Fim do container principal-->
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    -->
+
+</body>
+</html>

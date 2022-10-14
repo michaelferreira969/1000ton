@@ -1,0 +1,116 @@
+/*Cor da página*/
+body {
+    background-color: #282829;
+}
+
+/*Cor da barra de navegação*/
+header#cabecalho {
+    background: rgba(40, 40, 41, 0.8);
+    box-shadow: 2px 0px 2px black;
+}
+
+/*Espaçamento dos links*/
+nav .nav-item .nav-link{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 20px;
+}
+
+/*Formatação dos links de nav*/
+nav .nav-item .nav-link {
+    color: white;
+    letter-spacing: 1px;
+
+    border-bottom: 1px solid rgba(40, 40, 41, 0);
+}
+
+/*Formatação efeito dos links*/
+nav .nav-item .nav-link:hover {
+    color: rgb(219, 173, 0);
+    transition: all 0.7s;
+
+    border-bottom: 1px solid rgb(219, 173, 0);
+}
+
+/*Botão do modo de cores*/
+nav .nav-item #btn-mod {
+    color: white;
+    background: none;
+    border: none;
+}
+
+/*Mudar posição da legenda do carrossel*/
+#inicio .carousel-caption {
+    bottom: 250px;
+}
+
+/*Afastar carrossel do topo*/
+#carousel-capa {
+    margin-top: 80px;
+}
+
+/*Formatar h1 do carrossel*/
+#inicio .carousel-caption h1 {
+    text-shadow: 1px 5px 10px black;
+    font-weight: 900;
+}
+
+/*Coloração da imagem de capa*/
+img.img-capa {
+    filter: saturate(70%);
+    opacity: 0.6;
+}
+
+/*Espaçamento do link em slides*/
+#slides article a {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*Cor do texto nos botões de link*/
+#slides article a button.btn {
+    color: rgb(219, 173, 0);
+}
+
+/*Efeito nas imagens de slides*/
+#slides img:hover {
+    filter: grayscale(60%);
+    transition: all 1s ease-in-out;
+    transform: scale(1.1);
+}
+
+/***********Quando body Active**************/
+
+/*Cor da página quando modo claro*/
+body.active {
+    background-color: white;
+    color: black;
+}
+
+/*Cor da barra de navegação*/
+body.active header#cabecalho {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/*Formatação dos links de nav*/
+body.active nav .nav-item .nav-link {
+    color: black;
+}
+
+/*Formatação efeito*/
+body.active nav .nav-item .nav-link:hover {
+    color: #1F69FF;
+
+    border-color: #1F69FF;
+}
+
+/*Botão do modo de cores*/
+body.active nav .nav-item #btn-mod {
+    color: black;
+}
+
+/*imagem de capa*/
+body.active img.img-capa {
+    opacity: 1;
+    filter: saturate(60%);
+}
